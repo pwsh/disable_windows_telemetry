@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="HKEY_CURRENT_USER">
+  <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="Software">
+    <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="Policies">
+      <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="Microsoft">
+        <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="Windows">
+          <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="CloudContent">
+            <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="ConfigureWindowsSpotlight" descr="Imported Reg File" image="17">
+              <Properties action="U" hive="HKEY_CURRENT_USER" key="Software\Policies\Microsoft\Windows\CloudContent" name="ConfigureWindowsSpotlight" default="0" type="REG_DWORD" displayDecimal="0" value="00000002" />
+            </Registry>
+            <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="IncludeEnterpriseSpotlight" descr="Imported Reg File" image="17">
+              <Properties action="U" hive="HKEY_CURRENT_USER" key="Software\Policies\Microsoft\Windows\CloudContent" name="IncludeEnterpriseSpotlight" default="0" type="REG_DWORD" displayDecimal="0" value="00000000" />
+            </Registry>
+            <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="DisableThirdPartySuggestions" descr="Imported Reg File" image="17">
+              <Properties action="U" hive="HKEY_CURRENT_USER" key="Software\Policies\Microsoft\Windows\CloudContent" name="DisableThirdPartySuggestions" default="0" type="REG_DWORD" displayDecimal="0" value="00000001" />
+            </Registry>
+            <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="DisableTailoredExperiencesWithDiagnosticData" descr="Imported Reg File" image="17">
+              <Properties action="U" hive="HKEY_CURRENT_USER" key="Software\Policies\Microsoft\Windows\CloudContent" name="DisableTailoredExperiencesWithDiagnosticData" default="0" type="REG_DWORD" displayDecimal="0" value="00000001" />
+            </Registry>
+            <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="DisableWindowsSpotlightFeatures" descr="Imported Reg File" image="17">
+              <Properties action="U" hive="HKEY_CURRENT_USER" key="Software\Policies\Microsoft\Windows\CloudContent" name="DisableWindowsSpotlightFeatures" default="0" type="REG_DWORD" displayDecimal="0" value="00000001" />
+            </Registry>
+            <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="DisableWindowsSpotlightWindowsWelcomeExperience" descr="Imported Reg File" image="17">
+              <Properties action="U" hive="HKEY_CURRENT_USER" key="Software\Policies\Microsoft\Windows\CloudContent" name="DisableWindowsSpotlightWindowsWelcomeExperience" default="0" type="REG_DWORD" displayDecimal="0" value="00000001" />
+            </Registry>
+            <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="DisableWindowsSpotlightOnActionCenter" descr="Imported Reg File" image="17">
+              <Properties action="U" hive="HKEY_CURRENT_USER" key="Software\Policies\Microsoft\Windows\CloudContent" name="DisableWindowsSpotlightOnActionCenter" default="0" type="REG_DWORD" displayDecimal="0" value="00000001" />
+            </Registry>
+            <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="DisableWindowsSpotlightOnSettings" descr="Imported Reg File" image="17">
+              <Properties action="U" hive="HKEY_CURRENT_USER" key="Software\Policies\Microsoft\Windows\CloudContent" name="DisableWindowsSpotlightOnSettings" default="0" type="REG_DWORD" displayDecimal="0" value="00000001" />
+            </Registry>
+          </Collection>
+        </Collection>
+      </Collection>
+    </Collection>
+    <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="Microsoft">
+      <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="Windows">
+        <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="CurrentVersion">
+          <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="ContentDeliveryManager">
+            <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="FeatureManagementEnabled" descr="Imported Reg File" image="17">
+              <Properties action="U" hive="HKEY_CURRENT_USER" key="Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" name="FeatureManagementEnabled" default="0" type="REG_DWORD" displayDecimal="0" value="00000000" />
+            </Registry>
+            <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="OemPreInstalledAppsEnabled" descr="Imported Reg File" image="17">
+              <Properties action="U" hive="HKEY_CURRENT_USER" key="Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" name="OemPreInstalledAppsEnabled" default="0" type="REG_DWORD" displayDecimal="0" value="00000000" />
+            </Registry>
+            <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="PreInstalledAppsEnabled" descr="Imported Reg File" image="17">
+              <Properties action="U" hive="HKEY_CURRENT_USER" key="Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" name="PreInstalledAppsEnabled" default="0" type="REG_DWORD" displayDecimal="0" value="00000000" />
+            </Registry>
+            <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="RotatingLockScreenEnabled" descr="Imported Reg File" image="17">
+              <Properties action="U" hive="HKEY_CURRENT_USER" key="Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" name="RotatingLockScreenEnabled" default="0" type="REG_DWORD" displayDecimal="0" value="00000000" />
+            </Registry>
+            <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="RotatingLockScreenOverlayEnabled" descr="Imported Reg File" image="17">
+              <Properties action="U" hive="HKEY_CURRENT_USER" key="Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" name="RotatingLockScreenOverlayEnabled" default="0" type="REG_DWORD" displayDecimal="0" value="00000000" />
+            </Registry>
+            <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="SoftLandingEnabled" descr="Imported Reg File" image="17">
+              <Properties action="U" hive="HKEY_CURRENT_USER" key="Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" name="SoftLandingEnabled" default="0" type="REG_DWORD" displayDecimal="0" value="00000000" />
+            </Registry>
+            <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="SystemPaneSuggestionsEnabled" descr="Imported Reg File" image="17">
+              <Properties action="U" hive="HKEY_CURRENT_USER" key="Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" name="SystemPaneSuggestionsEnabled" default="0" type="REG_DWORD" displayDecimal="0" value="00000000" />
+            </Registry>
+            <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="SubscribedContentEnabled" descr="Imported Reg File" image="17">
+              <Properties action="U" hive="HKEY_CURRENT_USER" key="Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" name="SubscribedContentEnabled" default="0" type="REG_DWORD" displayDecimal="0" value="00000000" />
+            </Registry>
+            <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="ContentDeliveryAllowed" descr="Imported Reg File" image="17">
+              <Properties action="U" hive="HKEY_CURRENT_USER" key="Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" name="ContentDeliveryAllowed" default="0" type="REG_DWORD" displayDecimal="0" value="00000000" />
+            </Registry>
+            <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="SilentInstalledAppsEnabled" descr="Imported Reg File" image="17">
+              <Properties action="U" hive="HKEY_CURRENT_USER" key="Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" name="SilentInstalledAppsEnabled" default="0" type="REG_DWORD" displayDecimal="0" value="00000000" />
+            </Registry>
+            <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="PreInstalledAppsEverEnabled" descr="Imported Reg File" image="17">
+              <Properties action="U" hive="HKEY_CURRENT_USER" key="Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" name="PreInstalledAppsEverEnabled" default="0" type="REG_DWORD" displayDecimal="0" value="00000000" />
+            </Registry>
+            <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="RemediationRequired" descr="Imported Reg File" image="17">
+              <Properties action="U" hive="HKEY_CURRENT_USER" key="Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" name="RemediationRequired" default="0" type="REG_DWORD" displayDecimal="0" value="00000000" />
+            </Registry>
+            <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="SubscribedContent-338387Enabled" descr="Imported Reg File" image="17">
+              <Properties action="U" hive="HKEY_CURRENT_USER" key="Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" name="SubscribedContent-338387Enabled" default="0" type="REG_DWORD" displayDecimal="0" value="00000000" />
+            </Registry>
+            <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="SubscribedContent-338388Enabled" descr="Imported Reg File" image="17">
+              <Properties action="U" hive="HKEY_CURRENT_USER" key="Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" name="SubscribedContent-338388Enabled" default="0" type="REG_DWORD" displayDecimal="0" value="00000000" />
+            </Registry>
+            <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="SubscribedContent-338389Enabled" descr="Imported Reg File" image="17">
+              <Properties action="U" hive="HKEY_CURRENT_USER" key="Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" name="SubscribedContent-338389Enabled" default="0" type="REG_DWORD" displayDecimal="0" value="00000000" />
+            </Registry>
+            <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="SubscribedContent-310093Enabled" descr="Imported Reg File" image="17">
+              <Properties action="U" hive="HKEY_CURRENT_USER" key="Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" name="SubscribedContent-310093Enabled" default="0" type="REG_DWORD" displayDecimal="0" value="00000000" />
+            </Registry>
+            <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="SubscribedContent-338393Enabled" descr="Imported Reg File" image="17">
+              <Properties action="U" hive="HKEY_CURRENT_USER" key="Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" name="SubscribedContent-338393Enabled" default="0" type="REG_DWORD" displayDecimal="0" value="00000000" />
+            </Registry>
+            <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="SubscribedContent-314563Enabled" descr="Imported Reg File" image="17">
+              <Properties action="U" hive="HKEY_CURRENT_USER" key="Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" name="SubscribedContent-314563Enabled" default="0" type="REG_DWORD" displayDecimal="0" value="00000000" />
+            </Registry>
+            <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="SubscribedContent-353698Enabled" descr="Imported Reg File" image="17">
+              <Properties action="U" hive="HKEY_CURRENT_USER" key="Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" name="SubscribedContent-353698Enabled" default="0" type="REG_DWORD" displayDecimal="0" value="00000000" />
+            </Registry>
+            <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="SubscribedContent-353694Enabled" descr="Imported Reg File" image="17">
+              <Properties action="U" hive="HKEY_CURRENT_USER" key="Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" name="SubscribedContent-353694Enabled" default="0" type="REG_DWORD" displayDecimal="0" value="00000000" />
+            </Registry>
+            <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="SubscribedContent-353696Enabled" descr="Imported Reg File" image="17">
+              <Properties action="U" hive="HKEY_CURRENT_USER" key="Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" name="SubscribedContent-353696Enabled" default="0" type="REG_DWORD" displayDecimal="0" value="00000000" />
+            </Registry>
+            <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="SuggestedApps">
+              <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="46928bounde.EclipseManager_a5h4egax66k6y" descr="Imported Reg File" image="17">
+                <Properties action="U" hive="HKEY_CURRENT_USER" key="Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager\SuggestedApps" name="46928bounde.EclipseManager_a5h4egax66k6y" default="0" type="REG_DWORD" displayDecimal="0" value="00000000" />
+              </Registry>
+              <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="ActiproSoftwareLLC.562882FEEB491_24pqs290vpjk0" descr="Imported Reg File" image="17">
+                <Properties action="U" hive="HKEY_CURRENT_USER" key="Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager\SuggestedApps" name="ActiproSoftwareLLC.562882FEEB491_24pqs290vpjk0" default="0" type="REG_DWORD" displayDecimal="0" value="00000000" />
+              </Registry>
+              <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="AdobeSystemsIncorporated.AdobePhotoshopExpress_ynb6jyjzte8ga" descr="Imported Reg File" image="17">
+                <Properties action="U" hive="HKEY_CURRENT_USER" key="Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager\SuggestedApps" name="AdobeSystemsIncorporated.AdobePhotoshopExpress_ynb6jyjzte8ga" default="0" type="REG_DWORD" displayDecimal="0" value="00000000" />
+              </Registry>
+              <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="D5EA27B7.Duolingo-LearnLanguagesforFree_yx6k7tf7xvsea" descr="Imported Reg File" image="17">
+                <Properties action="U" hive="HKEY_CURRENT_USER" key="Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager\SuggestedApps" name="D5EA27B7.Duolingo-LearnLanguagesforFree_yx6k7tf7xvsea" default="0" type="REG_DWORD" displayDecimal="0" value="00000000" />
+              </Registry>
+              <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="Flipboard.Flipboard_3f5azkryzdbc4" descr="Imported Reg File" image="17">
+                <Properties action="U" hive="HKEY_CURRENT_USER" key="Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager\SuggestedApps" name="Flipboard.Flipboard_3f5azkryzdbc4" default="0" type="REG_DWORD" displayDecimal="0" value="00000000" />
+              </Registry>
+              <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="Microsoft.BingNews_8wekyb3d8bbwe" descr="Imported Reg File" image="17">
+                <Properties action="U" hive="HKEY_CURRENT_USER" key="Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager\SuggestedApps" name="Microsoft.BingNews_8wekyb3d8bbwe" default="0" type="REG_DWORD" displayDecimal="0" value="00000000" />
+              </Registry>
+              <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="Microsoft.BingWeather_8wekyb3d8bbwe" descr="Imported Reg File" image="17">
+                <Properties action="U" hive="HKEY_CURRENT_USER" key="Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager\SuggestedApps" name="Microsoft.BingWeather_8wekyb3d8bbwe" default="0" type="REG_DWORD" displayDecimal="0" value="00000000" />
+              </Registry>
+              <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="Microsoft.FreshPaint_8wekyb3d8bbwe" descr="Imported Reg File" image="17">
+                <Properties action="U" hive="HKEY_CURRENT_USER" key="Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager\SuggestedApps" name="Microsoft.FreshPaint_8wekyb3d8bbwe" default="0" type="REG_DWORD" displayDecimal="0" value="00000000" />
+              </Registry>
+              <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="Microsoft.Getstarted_8wekyb3d8bbwe" descr="Imported Reg File" image="17">
+                <Properties action="U" hive="HKEY_CURRENT_USER" key="Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager\SuggestedApps" name="Microsoft.Getstarted_8wekyb3d8bbwe" default="0" type="REG_DWORD" displayDecimal="0" value="00000000" />
+              </Registry>
+              <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="Microsoft.NetworkSpeedTest_8wekyb3d8bbwe" descr="Imported Reg File" image="17">
+                <Properties action="U" hive="HKEY_CURRENT_USER" key="Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager\SuggestedApps" name="Microsoft.NetworkSpeedTest_8wekyb3d8bbwe" default="0" type="REG_DWORD" displayDecimal="0" value="00000000" />
+              </Registry>
+              <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="Microsoft.Office.Sway_8wekyb3d8bbwe" descr="Imported Reg File" image="17">
+                <Properties action="U" hive="HKEY_CURRENT_USER" key="Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager\SuggestedApps" name="Microsoft.Office.Sway_8wekyb3d8bbwe" default="0" type="REG_DWORD" displayDecimal="0" value="00000000" />
+              </Registry>
+              <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="Microsoft.RemoteDesktop_8wekyb3d8bbwe" descr="Imported Reg File" image="17">
+                <Properties action="U" hive="HKEY_CURRENT_USER" key="Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager\SuggestedApps" name="Microsoft.RemoteDesktop_8wekyb3d8bbwe" default="0" type="REG_DWORD" displayDecimal="0" value="00000000" />
+              </Registry>
+              <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="Microsoft.WindowsAlarms_8wekyb3d8bbwe" descr="Imported Reg File" image="17">
+                <Properties action="U" hive="HKEY_CURRENT_USER" key="Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager\SuggestedApps" name="Microsoft.WindowsAlarms_8wekyb3d8bbwe" default="0" type="REG_DWORD" displayDecimal="0" value="00000000" />
+              </Registry>
+              <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="Microsoft.WindowsSoundRecorder_8wekyb3d8bbwe" descr="Imported Reg File" image="17">
+                <Properties action="U" hive="HKEY_CURRENT_USER" key="Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager\SuggestedApps" name="Microsoft.WindowsSoundRecorder_8wekyb3d8bbwe" default="0" type="REG_DWORD" displayDecimal="0" value="00000000" />
+              </Registry>
+              <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="40579FactionSoftware.Colorist_ktsqrfenxtjhw" descr="Imported Reg File" image="17">
+                <Properties action="U" hive="HKEY_CURRENT_USER" key="Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager\SuggestedApps" name="40579FactionSoftware.Colorist_ktsqrfenxtjhw" default="0" type="REG_DWORD" displayDecimal="0" value="00000000" />
+              </Registry>
+            </Collection>
+          </Collection>
+          <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="Explorer">
+            <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="Advanced">
+              <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="ShowSyncProviderNotifications" descr="Imported Reg File" image="17">
+                <Properties action="U" hive="HKEY_CURRENT_USER" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" name="ShowSyncProviderNotifications" default="0" type="REG_DWORD" displayDecimal="0" value="00000000" />
+              </Registry>
+            </Collection>
+          </Collection>
+        </Collection>
+      </Collection>
+      <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="GameBar">
+        <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="ShowStartupPanel" descr="Imported Reg File" image="17">
+          <Properties action="U" hive="HKEY_CURRENT_USER" key="Software\Microsoft\GameBar" name="ShowStartupPanel" default="0" type="REG_DWORD" displayDecimal="0" value="00000000" />
+        </Registry>
+      </Collection>
+    </Collection>
+  </Collection>
+</Collection>

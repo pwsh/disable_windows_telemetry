@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="HKEY_LOCAL_MACHINE">
+  <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="SOFTWARE">
+    <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="Policies">
+      <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="Microsoft">
+        <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="Windows">
+          <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="CloudContent">
+            <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="DisableThirdPartySuggestions" descr="Imported Reg File" image="17">
+              <Properties action="U" hive="HKEY_LOCAL_MACHINE" key="SOFTWARE\Policies\Microsoft\Windows\CloudContent" name="DisableThirdPartySuggestions" default="0" type="REG_DWORD" displayDecimal="0" value="00000001" />
+            </Registry>
+            <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="DisableWindowsConsumerFeatures" descr="Imported Reg File" image="17">
+              <Properties action="U" hive="HKEY_LOCAL_MACHINE" key="SOFTWARE\Policies\Microsoft\Windows\CloudContent" name="DisableWindowsConsumerFeatures" default="0" type="REG_DWORD" displayDecimal="0" value="00000001" />
+            </Registry>
+            <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="DisableConsumerAccountStateContent" descr="Imported Reg File" image="17">
+              <Properties action="U" hive="HKEY_LOCAL_MACHINE" key="SOFTWARE\Policies\Microsoft\Windows\CloudContent" name="DisableConsumerAccountStateContent" default="0" type="REG_DWORD" displayDecimal="0" value="00000001" />
+            </Registry>
+            <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="DisableCloudOptimizedContent" descr="Imported Reg File" image="17">
+              <Properties action="U" hive="HKEY_LOCAL_MACHINE" key="SOFTWARE\Policies\Microsoft\Windows\CloudContent" name="DisableCloudOptimizedContent" default="0" type="REG_DWORD" displayDecimal="0" value="00000001" />
+            </Registry>
+          </Collection>
+        </Collection>
+        <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="PushToInstall">
+          <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="DisablePushToInstall" descr="Imported Reg File" image="17">
+            <Properties action="U" hive="HKEY_LOCAL_MACHINE" key="SOFTWARE\Policies\Microsoft\PushToInstall" name="DisablePushToInstall" default="0" type="REG_DWORD" displayDecimal="0" value="00000001" />
+          </Registry>
+        </Collection>
+        <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="MRT">
+          <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="DontOfferThroughWUAU" descr="Imported Reg File" image="17">
+            <Properties action="U" hive="HKEY_LOCAL_MACHINE" key="SOFTWARE\Policies\Microsoft\MRT" name="DontOfferThroughWUAU" default="0" type="REG_DWORD" displayDecimal="0" value="00000001" />
+          </Registry>
+        </Collection>
+        <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="Windows">
+          <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="Windows Chat">
+            <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="ChatIcon" descr="Imported Reg File" image="17">
+              <Properties action="U" hive="HKEY_LOCAL_MACHINE" key="SOFTWARE\Policies\Microsoft\Windows\Windows Chat" name="ChatIcon" default="0" type="REG_DWORD" displayDecimal="0" value="00000003" />
+            </Registry>
+          </Collection>
+        </Collection>
+      </Collection>
+    </Collection>
+  </Collection>
+  <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="NTUSER">
+    <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="SOFTWARE">
+      <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="Microsoft">
+        <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="Windows">
+          <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="CurrentVersion">
+            <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="Explorer">
+              <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="Advanced">
+                <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="TaskbarMn" descr="Imported Reg File" image="17">
+                  <Properties action="U" hive="HKEY_LOCAL_MACHINE" key="NTUSER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" name="TaskbarMn" default="0" type="REG_DWORD" displayDecimal="0" value="00000000" />
+                </Registry>
+              </Collection>
+            </Collection>
+            <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="AdvertisingInfo">
+              <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="Enabled" descr="Imported Reg File" image="17">
+                <Properties action="U" hive="HKEY_LOCAL_MACHINE" key="NTUSER\Software\Microsoft\Windows\CurrentVersion\AdvertisingInfo" name="Enabled" default="0" type="REG_DWORD" displayDecimal="0" value="00000000" />
+              </Registry>
+            </Collection>
+            <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="Privacy">
+              <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="TailoredExperiencesWithDiagnosticDataEnabled" descr="Imported Reg File" image="17">
+                <Properties action="U" hive="HKEY_LOCAL_MACHINE" key="NTUSER\Software\Microsoft\Windows\CurrentVersion\Privacy" name="TailoredExperiencesWithDiagnosticDataEnabled" default="0" type="REG_DWORD" displayDecimal="0" value="00000000" />
+              </Registry>
+            </Collection>
+          </Collection>
+        </Collection>
+        <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="Speech_OneCore">
+          <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="Settings">
+            <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="OnlineSpeechPrivacy">
+              <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="HasAccepted" descr="Imported Reg File" image="17">
+                <Properties action="U" hive="HKEY_LOCAL_MACHINE" key="NTUSER\Software\Microsoft\Speech_OneCore\Settings\OnlineSpeechPrivacy" name="HasAccepted" default="0" type="REG_DWORD" displayDecimal="0" value="00000000" />
+              </Registry>
+            </Collection>
+          </Collection>
+        </Collection>
+        <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="Input">
+          <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="TIPC">
+            <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="Enabled" descr="Imported Reg File" image="17">
+              <Properties action="U" hive="HKEY_LOCAL_MACHINE" key="NTUSER\Software\Microsoft\Input\TIPC" name="Enabled" default="0" type="REG_DWORD" displayDecimal="0" value="00000000" />
+            </Registry>
+          </Collection>
+        </Collection>
+        <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="InputPersonalization">
+          <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="RestrictImplicitInkCollection" descr="Imported Reg File" image="17">
+            <Properties action="U" hive="HKEY_LOCAL_MACHINE" key="NTUSER\Software\Microsoft\InputPersonalization" name="RestrictImplicitInkCollection" default="0" type="REG_DWORD" displayDecimal="0" value="00000001" />
+          </Registry>
+          <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="RestrictImplicitTextCollection" descr="Imported Reg File" image="17">
+            <Properties action="U" hive="HKEY_LOCAL_MACHINE" key="NTUSER\Software\Microsoft\InputPersonalization" name="RestrictImplicitTextCollection" default="0" type="REG_DWORD" displayDecimal="0" value="00000001" />
+          </Registry>
+          <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="TrainedDataStore">
+            <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="HarvestContacts" descr="Imported Reg File" image="17">
+              <Properties action="U" hive="HKEY_LOCAL_MACHINE" key="NTUSER\Software\Microsoft\InputPersonalization\TrainedDataStore" name="HarvestContacts" default="0" type="REG_DWORD" displayDecimal="0" value="00000000" />
+            </Registry>
+          </Collection>
+        </Collection>
+        <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="Personalization">
+          <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="Settings">
+            <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="AcceptedPrivacyPolicy" descr="Imported Reg File" image="17">
+              <Properties action="U" hive="HKEY_LOCAL_MACHINE" key="NTUSER\Software\Microsoft\Personalization\Settings" name="AcceptedPrivacyPolicy" default="0" type="REG_DWORD" displayDecimal="0" value="00000000" />
+            </Registry>
+          </Collection>
+        </Collection>
+      </Collection>
+    </Collection>
+  </Collection>
+  <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="SOFTWARE">
+    <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="Policies">
+      <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="Microsoft">
+        <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="Windows">
+          <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="DataCollection">
+            <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="AllowTelemetry" descr="Imported Reg File" image="17">
+              <Properties action="U" hive="HKEY_LOCAL_MACHINE" key="SOFTWARE\Policies\Microsoft\Windows\DataCollection" name="AllowTelemetry" default="0" type="REG_DWORD" displayDecimal="0" value="00000000" />
+            </Registry>
+          </Collection>
+        </Collection>
+      </Collection>
+    </Collection>
+  </Collection>
+  <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="SYSTEM">
+    <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="ControlSet001">
+      <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="Services">
+        <Collection clsid="{53B533F5-224C-47e3-B01B-CA3B3F3FF4BF}" name="dmwappushservice">
+          <Registry clsid="{9CD4B2F4-923D-47f5-A062-E897DD1DAD50}" name="Start" descr="Imported Reg File" image="17">
+            <Properties action="U" hive="HKEY_LOCAL_MACHINE" key="SYSTEM\ControlSet001\Services\dmwappushservice" name="Start" default="0" type="REG_DWORD" displayDecimal="0" value="00000004" />
+          </Registry>
+        </Collection>
+      </Collection>
+    </Collection>
+  </Collection>
+</Collection>

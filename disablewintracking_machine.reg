@@ -1,0 +1,45 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\CloudContent]
+"DisableThirdPartySuggestions"=dword:00000001
+"DisableWindowsConsumerFeatures"=dword:00000001
+"DisableConsumerAccountStateContent"=dword:00000001
+"DisableCloudOptimizedContent"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\PushToInstall]
+"DisablePushToInstall"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\MRT]
+"DontOfferThroughWUAU"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Windows Chat]
+"ChatIcon"=dword:00000003
+
+[HKEY_LOCAL_MACHINE\NTUSER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"TaskbarMn"=dword:00000000
+
+; Disable telemetry
+[HKEY_LOCAL_MACHINE\NTUSER\Software\Microsoft\Windows\CurrentVersion\AdvertisingInfo]
+"Enabled"=dword:00000000
+[HKEY_LOCAL_MACHINE\NTUSER\Software\Microsoft\Windows\CurrentVersion\Privacy]
+"TailoredExperiencesWithDiagnosticDataEnabled"=dword:00000000
+[HKEY_LOCAL_MACHINE\NTUSER\Software\Microsoft\Speech_OneCore\Settings\OnlineSpeechPrivacy]
+"HasAccepted"=dword:00000000
+[HKEY_LOCAL_MACHINE\NTUSER\Software\Microsoft\Input\TIPC]
+"Enabled"=dword:00000000
+[HKEY_LOCAL_MACHINE\NTUSER\Software\Microsoft\InputPersonalization]
+"RestrictImplicitInkCollection"=dword:00000001
+[HKEY_LOCAL_MACHINE\NTUSER\Software\Microsoft\InputPersonalization]
+"RestrictImplicitTextCollection"=dword:00000001
+[HKEY_LOCAL_MACHINE\NTUSER\Software\Microsoft\InputPersonalization\TrainedDataStore]
+"HarvestContacts"=dword:00000000
+[HKEY_LOCAL_MACHINE\NTUSER\Software\Microsoft\Personalization\Settings]
+"AcceptedPrivacyPolicy"=dword:00000000
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\DataCollection]
+"AllowTelemetry"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\dmwappushservice]
+"Start"=dword:00000004
+
+[HKEY_LOCAL_MACHINE\NTUSER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager\Subscriptions]
+[HKEY_LOCAL_MACHINE\NTUSER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager\SuggestedApps]
+
